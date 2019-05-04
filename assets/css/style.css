@@ -163,15 +163,15 @@ header {
     padding: 15px;
     border: 1px solid #dddddd; */
     font-family: Georgia, Times, "Times New Roman", serif;
-    weight: bold;
+    font-size: 14px;
 }
 
 /* float and spacing for headshot */
 
-/* 
-#headshot {
+
+/* #headshot {
     float: left;
-    padding: 20px 50px 5px 50px;
+    padding: 20px 50px 20px 50px;
 } */
 
 /* Fix for scrolling issue with paragraphs and padding */
@@ -369,8 +369,19 @@ input[type=submit]:hover {
     color: rgb(206, 104, 98);
     weight: bolder;
     transition: 0.5s;
-    font-size: 105%;
     opacity: 0.50;
+}
+
+.navbar-brand:hover {
+    color: rgb(206, 104, 98);
+    background:rgb(238, 195, 192);
+    transition: 0.5s;
+}
+
+#h2:hover {
+    color: rgb(206, 104, 98);
+    transition: 0.5s;
+}
 }
 
 /* .title:hover {
