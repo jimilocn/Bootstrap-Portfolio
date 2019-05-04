@@ -16,7 +16,7 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
-    line-height: 34px;
+    line-height: 28px;
     color: #777;
     background: white;
     height: 100%;
@@ -46,13 +46,29 @@ html, body {
     font-family: Georgia, Times, "Times New Roman", serif;
     background-color: #4aaaa5;
     color: white;
-    Padding: 10px 60px;
+    Padding: 25px 100px 30px;
+    margin-left:0;
+    margin-bottom:0;
+    font-size: 25px;
 }
-
-.nav-link {
+/* .navbar-toggler {
+    background: white;  
+}
+.navbar {
+    padding:19px 10px;
+    background: white;
     color: #4aaaa5;
     text-decoration: none;
 }
+.nav-link{
+    background:white;
+    color: #4aaaa5;
+    text-decoration: none;
+ 
+}
+nav {
+    background:white;
+} */
 
 .wrapper {
     background: url("../images/grunge.png");
@@ -61,8 +77,8 @@ html, body {
 
 .container {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+        margin-left: auto;
+        margin-right: auto;
     margin-top: 0;
     background: white;
 }
@@ -87,7 +103,7 @@ header {
 /* float for the navigation bar */
 
 .nav-link {
-    float: right;
+    /* float: right; */
     color: #4aaaa5;
     text-decoration: none;
 }
@@ -252,7 +268,7 @@ footer {
     color: #ffffff;
     background: #4aaaa5;
     clear: both;
-    top: -265px;
+    top: -20px;
     left: 15px;
 }
 
