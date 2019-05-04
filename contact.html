@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Jimi Loc Nguyen</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- helps to enclose the header and nav links within 960px -->
+    <div id="top">
+      <div class="container">
+
+        <div class="row">
+          
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="col-sm-3">
+              <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+              <div class="col-sm-9">
+                <div class="collapse navbar-collapse puul-right" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Contact</a>
+                    <a class="nav-item nav-link" href="#">Portfolio</a>
+                  </div>
+                </div>
+              </div>
+              </nav>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- large grey image around bio -->
+    <div class="container1">
+        <!-- Section about myself with white background -->
+        <section class="bio">
+            <!-- header for each middle section -->
+            <h2 id="h2">
+                Contact
+            </h2>
+            <!-- Horizontal line break -->
+            <hr>
+
+            <!-- Contact form inspired by the formatting at https://www.w3schools.com/howto/howto_css_contact_form.asp-->
+            <form action="action_page.php">
+                <!-- Name label -->
+                <label for="name">
+                    Name
+                </label>
+
+                <!-- input box -->
+                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                <!-- Email label -->
+                <label for="email">
+                    E-Mail
+                </label>
+
+                <!-- input box -->
+                <input type="text" id="email" name="email" placeholder="Your email..">
+
+                <!-- message label -->
+                <label for="message">
+                    Message
+                </label>
+                <!-- Text input box -->
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+
+        </section>
+    </div>
+
+    <!-- cute footer that is fixed -->
+    <footer>
+        <p id="love">
+            Copyright &copy;
+        </p>
+    </footer>
+
+</body>
+
+</html>
