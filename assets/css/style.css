@@ -95,6 +95,7 @@ footer {
 
 .box1 {
     width: 225px;
+    height: 225px;
     z-index: 2;
     margin-bottom: 20px;
     clear: both;
